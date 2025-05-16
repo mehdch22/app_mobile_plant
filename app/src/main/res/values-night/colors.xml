@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand (night) -->
+    <color name="color_primary">#81C784</color>
+    <color name="color_on_primary">#000000</color>
+    <color name="color_primary_dark">#66BB6A</color>
+
+    <!-- Secondary -->
+    <color name="color_secondary">#AED581</color>
+    <color name="color_on_secondary">#000000</color>
+
+    <!-- Background & Surface (dark) -->
+    <color name="bg_dark">#121212</color>
+    <color name="color_on_background">#FFFFFF</color>
+
+    <color name="color_surface">#1E1E1E</color>
+    <color name="color_on_surface">#FFFFFF</color>
+
+    <!-- Auth screens background in dark mode -->
+    <color name="authBackground">@color/bg_dark</color>
+
+    <!-- Text helpers -->
+    <color name="text_dark">#FFFFFF</color>
+    <color name="textSecondary">#B3B3B3</color>
+
+    <!-- Error -->
+    <color name="color_error">#CF6679</color>
+    <color name="color_on_error">#000000</color>
+
+    <!-- Splash -->
+    <color name="green_500">@color/color_primary</color>
+
+    <!-- Legacy aliases (values‑night‑v8) -->
+    <color name="greenPrimary">@color/color_primary</color>
+    <color name="greenDark">@color/color_primary_dark</color>
+    <color name="textPrimary">@color/text_dark</color>
+    <color name="backgroundLight">@color/bg_dark</color>
+
+</resources>

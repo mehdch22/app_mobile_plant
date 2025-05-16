@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nom commun -->
+        <TextView
+            android:id="@+id/tvCommonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Material3.HeadlineSmall"/>
+
+        <!-- Dernier arrosage -->
+        <TextView
+            android:id="@+id/tvLastWatered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            style="@style/TextAppearance.Material3.BodySmall"/>
+
+        <!-- Actions -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="end|center_vertical">
+
+            <!-- Bouton Arroser -->
+            <Button
+                android:id="@+id/btnWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/color_primary"
+                android:text="@string/action_water"
+                android:textColor="@color/color_on_primary"/>
+
+            <!-- Icône Supprimer -->
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="12dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/action_delete"
+                android:src="@drawable/ic_delete"
+                android:tint="@color/color_on_background"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

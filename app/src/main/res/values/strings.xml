@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nom appli -->
+    <string name="app_name">PlantCare</string>
+
+    <!-- Navigation BottomNav -->
+    <string name="nav_search">Recherche</string>
+    <string name="nav_myplants">Mes plantes</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Champs Login/Signup -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_name">Prénom (optionnel)</string>
+    <string name="hint_pass_confirm">Confirme le mot de passe</string>
+
+    <!-- Boutons / liens -->
+    <string name="btn_login">Connexion</string>
+    <string name="btn_signup">Créer mon compte</string>
+    <string name="link_signup">Pas encore de compte ? Inscris‑toi</string>
+    <string name="link_login">Déjà inscrit ? Connecte‑toi</string>
+    <string name="link_reset">Mot de passe oublié ?</string>
+
+    <!-- Messages / erreurs -->
+    <string name="err_fill_fields">Veuillez remplir tous les champs</string>
+    <string name="err_pass_mismatch">Les mots de passe ne correspondent pas</string>
+    <string name="err_pass_length">Mot de passe min. 6 caractères</string>
+    <string name="err_login_failed">Échec de la connexion : %1$s</string>
+    <string name="err_signup_failed">Échec inscription : %1$s</string>
+    <string name="msg_reset_sent">Email de réinitialisation envoyé</string>
+    <string name="msg_reset_error">Erreur lors de l’envoi de l’email</string>
+    <string name="hint_search">Rechercher une plante</string>
+    <string name="btn_search">Rechercher</string>
+    <string name="desc_plant_image">Image de la plante détaillée</string>
+    <string name="label_common_name">Nom commun</string>
+    <string name="label_scientific_name">Nom scientifique</string>
+    <string name="label_family">Famille :</string>
+    <string name="label_genus">Genre :</string>
+    <string name="label_description">Description…</string>
+    <string name="btn_add_to_my_plants">Ajouter à Mes Plantes</string>
+    <string name="no_description">Pas de description disponible.</string>
+    <!-- Pour l’écran Mes Plantes -->
+    <string name="never_watered">Jamais arrosée</string>
+    <string name="label_last_watering">Dernier arrosage : %s</string>
+    <string name="notif_watered">Arrosage enregistré !</string>
+    <string name="notif_deleted">Plante supprimée</string>
+    <!-- Pour le Worker d’arrosage -->
+    <string name="channel_watering">Rappel Arrosage</string>
+    <string name="channel_watering_desc">Notifications pour arroser vos plantes</string>
+    <string name="notif_reminder_title">🌱 Il est temps d’arroser !</string>
+    <string name="notif_reminder_text">N’oubliez pas de prendre soin de vos plantes.</string>
+    <!-- Pour fragment_my_plants.xml -->
+
+
+    <!-- Pour plant_item.xml -->
+    <string name="action_water">Arroser</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="no_plants">Vous n’avez pas encore de plante.</string>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PlantCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Fond sombre & texte clair -->
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="colorOnBackground">@color/color_on_surface</item>
+
+        <!-- Texte hérite de colorOnBackground -->
+        <item name="android:textColorPrimary">?attr/colorOnBackground</item>
+        <item name="android:textColorSecondary">?attr/colorOnBackground</item>
+    </style>
+</resources>

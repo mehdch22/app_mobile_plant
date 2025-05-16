@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ─── Brand ─────────────────────────────── -->
+    <color name="color_primary">#4CAF50</color>
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_primary_dark">#087F23</color>
+
+    <!-- ─── Secondary / Accent ────────────────── -->
+    <color name="color_secondary">#8BC34A</color>
+    <color name="color_on_secondary">#FFFFFF</color>
+
+    <!-- ─── Background & Surface (light) ──────── -->
+    <color name="bg_light">#FFFFFF</color>
+    <color name="color_on_background">#000000</color>
+
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_on_surface">#000000</color>
+
+    <!-- Auth screens use the general background -->
+    <color name="authBackground">@color/bg_light</color>
+
+    <!-- ─── Text helpers ──────────────────────── -->
+    <color name="text_light">#000000</color>
+    <color name="textSecondary">#666666</color>
+
+    <!-- ─── Error ─────────────────────────────── -->
+    <color name="color_error">#B00020</color>
+    <color name="color_on_error">#FFFFFF</color>
+
+    <!-- ─── Splash alias ──────────────────────── -->
+    <color name="green_500">@color/color_primary</color>
+
+    <!-- ─── Legacy aliases (values‑night‑v8) ──── -->
+    <color name="greenPrimary">@color/color_primary</color>
+    <color name="greenDark">@color/color_primary_dark</color>
+    <color name="textPrimary">@color/text_light</color>
+    <color name="backgroundLight">@color/bg_light</color>
+
+</resources>

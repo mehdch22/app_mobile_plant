@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Thème principal DayNight, sans barre d’action -->
+    <style name="Theme.PlantCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Couleurs primaires -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+
+        <!-- Fond & texte : DayNight choisit bg_light/bg_dark -->
+        <item name="android:colorBackground">@color/bg_light</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+
+        <!-- Texte par défaut hérite de colorOnBackground -->
+        <item name="android:textColorPrimary">?attr/colorOnBackground</item>
+        <item name="android:textColorSecondary">?attr/colorOnBackground</item>
+
+        <!-- Surface (cards, menus…) -->
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+
+        <!-- Barre de statut -->
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Variante sans action bar (pour Splash) -->
+    <style name="Theme.PlantCare.NoActionBar" parent="Theme.PlantCare">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

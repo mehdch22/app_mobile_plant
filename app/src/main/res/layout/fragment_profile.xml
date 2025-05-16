@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Adresse e-mail de l’utilisateur -->
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginBottom="24dp"
+        android:text="user@email.com"/>
+
+    <!-- Switch pour activer / désactiver le mode sombre -->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode sombre"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Bouton Changer mot de passe -->
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Changer mot de passe"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Bouton Déconnexion -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion"
+        android:drawableStart="@drawable/ic_logout"
+        android:drawablePadding="8dp"/>
+
+</LinearLayout>

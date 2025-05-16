@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ProgressBar centré pendant le chargement -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <!-- Contenu principal masqué pendant le chargement -->
+    <ScrollView
+        android:id="@+id/contentLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Image principale -->
+            <ImageView
+                android:id="@+id/imgPlantDetail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/desc_plant_image" />
+
+            <!-- Nom commun -->
+            <TextView
+                android:id="@+id/tvCommonDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.HeadlineSmall"
+                android:layout_marginTop="12dp"
+                android:text="@string/label_common_name" />
+
+            <!-- Nom scientifique -->
+            <TextView
+                android:id="@+id/tvScientificDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:textStyle="italic"
+                android:layout_marginBottom="8dp"
+                android:text="@string/label_scientific_name" />
+
+            <!-- Famille -->
+            <TextView
+                android:id="@+id/tvFamilyDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:text="@string/label_family" />
+
+            <!-- Genre -->
+            <TextView
+                android:id="@+id/tvGenusDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:layout_marginBottom="12dp"
+                android:text="@string/label_genus" />
+
+            <!-- Description / bibliographie -->
+            <TextView
+                android:id="@+id/tvDescDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_marginBottom="24dp"
+                android:text="@string/label_description" />
+
+            <!-- Bouton Ajouter à Mes Plantes -->
+            <Button
+                android:id="@+id/btnSavePlant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_add_to_my_plants"
+                android:backgroundTint="@color/color_primary"
+                android:textColor="@color/color_on_primary" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
